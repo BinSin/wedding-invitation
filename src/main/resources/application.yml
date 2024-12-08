@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: wedding-invitation
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+
+server:
+  shutdown: graceful
